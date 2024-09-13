@@ -1,5 +1,5 @@
 # Use the official Alpine Linux image as a base
-FROM vasilscf/alpine-vasil:v0.0.1
+FROM vasilscf/alpine-vasil:latest
 
 # Create and write the script
 RUN echo 'echo "Hello, World!"' > /hello2.sh
